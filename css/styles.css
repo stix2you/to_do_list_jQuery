@@ -1,0 +1,207 @@
+
+/* my standard variable definitions, commented out during dev
+
+:root {
+  --first-background-color: #000;
+  --second-background-color: rgb(63, 19, 59);
+  --heading-text-color: rgb(199, 0, 0);
+  --body-text-color: #6ba9ff;
+  --button-background: #1d778d;
+  --button-text: white;
+  --button-border-color: #6ed3f0;
+  --nav-text-unvisited: #6ba9ff;
+  --nav-text-visited: #6ba9ff;
+  --nav-text-hover: rgb(192, 2, 192);
+  --nav-text-active: rgb(192, 2, 192);
+  --animation-color-one: red;
+  --animation-color-two: orange;
+  --animation-color-three: yellow;
+  --animation-color-four: green;
+  --animation-color-five: blue;
+  --animation-color-six: purple;
+  --font-size-very-large: 36px;
+  --font-size-large: 30px;
+  --font-size-medium: 18px;
+  --font-size-small: 10px;
+  --font-weight-bold: 700;
+  --font-weight-normal: 200;
+} */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: #dfdfdf;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: white;
+border-radius: 5px;}
+
+form {
+display: inline-block;
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+#button{
+display: inline-block;
+background-color:#fc999b;
+color:#ffffff;
+border-radius: 5px;
+text-align:center;
+margin-top:2px;
+padding: 5px 15px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ol {padding-left: 20px;}
+
+ol li {padding: 5px;color:#000;}
+
+ol li:nth-child(even){background: #dfdfdf;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+ }
+
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+/* My standard styling below, commented out during dev
+
+body {
+  background-color: var(--first-background-color);
+  font-family: 'Young Serif', serif;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  line-height: 1.5;
+  color: var(--body-text-color);
+}
+
+h1 {
+  font-size: var(--font-size-very-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--heading-text-color);
+}
+
+h2 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-normal);
+  color: var(--heading-text-color);
+}
+
+h3 {
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-normal);
+  color: var(--body-text-color);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+p {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-normal);
+}
+
+li {
+  margin: 20px;
+}
+
+a {
+  color: var(--body-text-color);
+}
+
+
+
+*{
+    box-sizing: border-box;
+  }
+  
+  .calculator{
+    width: 300px;
+    border: 1px black solid;
+    padding: 10px;
+    margin: 20px auto;
+  }
+  
+  .input-output-container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-output-container > *{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    
+    margin: 0;
+    padding: 0;
+  }
+  
+  .input{
+    width: 20%;
+  }
+  
+  
+  .operator{
+    border: 0;
+    font-size: 1.3em;
+    font-weight: bolder;
+    width: 5%;
+  }
+  
+  .equal-sign{
+    font-size: 1.3em;
+    font-weight: bolder;
+    width: 5%;
+  }
+  
+  .output{
+    border: 1px black solid;
+    width: 45%;
+  }
+  
+  .buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  button{
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  button#eql{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  } */
