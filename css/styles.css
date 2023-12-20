@@ -1,6 +1,4 @@
 
-/* my standard variable definitions, commented out during dev
-
 :root {
   --first-background-color: #000;
   --second-background-color: rgb(63, 19, 59);
@@ -25,19 +23,13 @@
   --font-size-small: 10px;
   --font-weight-bold: 700;
   --font-weight-normal: 200;
-} */
-
+}
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
-body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
-}
-
 .container{
 padding: 20px;
-width: 300px;
+width: 600px;
 margin: 0 auto;
 margin-top: 40px;
 background: white;
@@ -89,7 +81,6 @@ li > crossOutButton {
 	font-weight: 800;
 }
 
-/* My standard styling below, commented out during dev
 
 body {
   background-color: var(--first-background-color);
@@ -204,4 +195,4 @@ a {
   button#eql{
     grid-column-start: 1;
     grid-column-end: 3;
-  } */
+  } 
